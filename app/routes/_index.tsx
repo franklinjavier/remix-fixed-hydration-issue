@@ -1,41 +1,32 @@
-import type { MetaFunction } from "@remix-run/node";
+import type { MetaFunction } from '@remix-run/node'
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "New Remix App" },
-    { name: "description", content: "Welcome to Remix!" },
-  ];
-};
+    { title: 'Remix - fix hydration issue' },
+    { name: 'description', content: 'Welcome to Remix!' },
+  ]
+}
 
 export default function Index() {
   return (
-    <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
-      <h1>Welcome to Remix</h1>
-      <ul>
-        <li>
-          <a
-            target="_blank"
-            href="https://remix.run/tutorials/blog"
-            rel="noreferrer"
-          >
-            15m Quickstart Blog Tutorial
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            href="https://remix.run/tutorials/jokes"
-            rel="noreferrer"
-          >
-            Deep Dive Jokes App Tutorial
-          </a>
-        </li>
-        <li>
-          <a target="_blank" href="https://remix.run/docs" rel="noreferrer">
-            Remix Docs
-          </a>
-        </li>
-      </ul>
-    </div>
-  );
+    <main>
+      <h1>Remix - fix hydration issue</h1>
+      <p>
+        Open the console and you will see that the error messages no longer
+        appear.{' '}
+        <a
+          href="https://github.com/remix-run/remix/issues/4822"
+          target="_blank"
+        >
+          Issue 4822
+        </a>
+      </p>
+      <img
+        width="1790"
+        alt="image"
+        src="https://github.com/remix-run/remix/assets/440220/503c5e54-5d9b-45d5-9082-43db6168d175"
+        style={{ border: '2px solid black', borderRadius: 10 }}
+      />
+    </main>
+  )
 }
