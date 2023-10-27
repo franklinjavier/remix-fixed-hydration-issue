@@ -1,38 +1,9 @@
-# Welcome to Remix!
+# Fix hydration issue in remix
 
-- [Remix Docs](https://remix.run/docs)
+### Before
 
-## Development
+<img width="1912" alt="image" src="https://github.com/remix-run/remix/assets/440220/a7ce4bd4-8d1c-4ecd-bf76-5d1b1ee49adf">
 
-From your terminal:
+### After
 
-```sh
-npm run dev
-```
-
-This starts your app in development mode, rebuilding assets on file changes.
-
-## Deployment
-
-First, build your app for production:
-
-```sh
-npm run build
-```
-
-Then run the app in production mode:
-
-```sh
-npm start
-```
-
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `remix build`
-
-- `build/`
-- `public/build/`
+<img width="1912" alt="image" src="https://github.com/remix-run/remix/assets/440220/d5820bf5-24f8-4cee-93cb-253a670a5d9c">

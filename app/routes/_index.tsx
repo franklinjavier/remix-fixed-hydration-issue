@@ -21,12 +21,6 @@ export default function Index() {
           Issue 4822
         </a>
       </p>
-      <img
-        width="1790"
-        alt="image"
-        src="https://github.com/remix-run/remix/assets/440220/503c5e54-5d9b-45d5-9082-43db6168d175"
-        style={{ border: '2px solid black', borderRadius: 10 }}
-      />
     </main>
   )
 }
